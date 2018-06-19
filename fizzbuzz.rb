@@ -1,9 +1,10 @@
 def fizzbuzz(int)
   if (int % 3 == 0) && (int % 5 == 0)
     return "Fizzbuzz"
-  elsif (int % == 0)
+  elsif (int % 3 == 0)
     return "Fizz" 
-  elsif (int % == )
+  elsif (int % 5 == 0)
+    return "Buzz"
 end
  
 fizzbuzz(3) # => You should see a return of "Fizz"

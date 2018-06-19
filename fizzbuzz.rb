@@ -3,6 +3,7 @@ def fizzbuzz(int)
     return "Fizzbuzz"
   elsif (int % == 0)
     return "Fizz" 
+  elsif (int % == )
 end
  
 fizzbuzz(3) # => You should see a return of "Fizz"
